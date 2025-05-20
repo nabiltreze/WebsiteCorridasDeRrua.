@@ -1,17 +1,16 @@
-/* Definindo a cor principal */
 :root {
   --laranja-principal: #FFA500;
   --laranja-claro: #FFD700;
 }
 
-/* Resetando margens e padding para todos os elementos */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilo do corpo da página */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -24,7 +23,7 @@ body {
   padding: 20px;
 }
 
-/* Container que centraliza o conteúdo */
+
 .container {
   background-color: #fff;
   padding: 30px;
@@ -35,20 +34,20 @@ body {
   max-width: 400px;
 }
 
-/* Títulos */
+
 h1 {
   color: var(--laranja-principal);
   font-size: 2em;
   margin-bottom: 20px;
 }
 
-/* Parágrafos */
+
 p {
   font-size: 1.1em;
   margin-bottom: 20px;
 }
 
-/* Estilizando o formulário */
+
 .form-container {
   width: 100%;
 }
@@ -58,7 +57,7 @@ form {
   flex-direction: column;
 }
 
-/* Estilo dos inputs */
+
 input {
   padding: 10px;
   margin-bottom: 15px;
@@ -67,7 +66,7 @@ input {
   font-size: 1em;
 }
 
-/* Estilo do botão */
+
 button {
   background-color: var(--laranja-principal);
   color: #fff;
@@ -82,7 +81,7 @@ button:hover {
   background-color: var(--laranja-claro);
 }
 
-/* Estilo dos links */
+
 a {
   color: var(--laranja-principal);
   text-decoration: none;
