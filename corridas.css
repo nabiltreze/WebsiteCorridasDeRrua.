@@ -1,0 +1,93 @@
+/* Definindo a cor principal */
+:root {
+  --laranja-principal: #FFA500;
+  --laranja-claro: #FFD700;
+}
+
+/* Resetando margens e padding para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container que centraliza o conteúdo */
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Títulos */
+h1 {
+  color: var(--laranja-principal);
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Parágrafos */
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+/* Estilizando o formulário */
+.form-container {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo dos inputs */
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Estilo do botão */
+button {
+  background-color: var(--laranja-principal);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--laranja-claro);
+}
+
+/* Estilo dos links */
+a {
+  color: var(--laranja-principal);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

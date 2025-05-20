@@ -1,0 +1,56 @@
+.menu-categorias {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quadrado {
+  width: 150px;
+  height: 150px;
+  background-color: royalblue;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.botao {
+  background-color: royalblue;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.botao:hover {
+  background-color: #274fa4;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Corridas</title>
+  <link rel="stylesheet" href="corridas.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Faça Login</h1>
+    <p>Digite seu usuário e senha para acessar as corridas.</p>
+
+    <!-- Formulário de login -->
+    <div class="form-container">
+      <form id="login-form" onsubmit="return login();">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Entrar</button>
+      </form>
+
+      <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a>.</p>
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      // Função de login simulada (você pode implementar sua lógica de autenticação aqui)
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      // Verificando se os dados de login são corretos (apenas como exemplo)
+      if (username === "usuario" && password === "senha123") {
+        // Se o login for bem-sucedido, redireciona para a página de corridas
+        window.location.href = "corridas.html";
+        return false; // Previne o envio do formulário
+      } else {
+        alert("Usuário ou senha inválidos!");
+        return false; // Impede o envio do formulário
+      }
+    }
+  </script>
+
+</body>
+</html>
