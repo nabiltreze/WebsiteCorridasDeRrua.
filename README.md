@@ -23,3 +23,9 @@ Qualquer pessoa pode ver as oficinas e eventos sem fazer login, para participar 
 20/04 - 10/05: criação do projeto.
 
 19/05: Primeiro commit
+
+24/05: Projeto com bom andamento na parte funcional, padronização de estilização e criação de imagens com ajuda do CHAT
+
+30/05: Projeto finalizado
+
+08/06: gravação e entrega final.
